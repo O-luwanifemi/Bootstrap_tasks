@@ -1,4 +1,5 @@
-/* - XS - max-width: 575px - 
+/* - XS - max-width: 575px - & 
+   - SM - max-width: 767px -
 */
 body {
   font-family: 'Baloo 2', cursive;
@@ -22,3 +23,15 @@ body {
 .carousel_box {
   padding: 0;
 }
+
+
+
+/* --- MEDIA QUERIES --- */
+
+/* - XL - min-width: 1200px - */
+@media (min-width: 1200px) {
+  .carousel-inner {
+    max-height: 90.5vh !important;
+  }
+}
+
