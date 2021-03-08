@@ -1,37 +1,173 @@
-/* - XS - max-width: 575px - & 
-   - SM - max-width: 767px -
-*/
+/* - XS - max-width: 575px - */
 body {
-  font-family: 'Baloo 2', cursive;
+  background: url(../images/iceland-1979445_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
   font-size: 1rem;
-  background-color: #ffcccc;
 }
 
-.navbar {
-  background-color: transparent !important;
+.text-holder {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
 }
 
-.brand_name {
-  font-family: 'Lobster Two', cursive;
-  font-size: 1.05rem;
-  letter-spacing: .18em;
+.text-holder h1 {
+  font-size: 2rem;
+  line-height: 1.8em;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.623);
+  margin-bottom: .4em;
+}
+
+.giant_btn {
+  background-color: #574b90b7;
+  font-size: 1rem;
+}
+
+.modal-content {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img_logo {
+  max-width: 60px;
+  margin: 0 auto;
+}
+
+.first_btn,
+.sec_btn {
+  width: 100%;
+  font-size: .75rem;
   text-transform: uppercase;
-  font-weight: bold;
-  color: #1e3369;
 }
 
-.carousel_box {
-  padding: 0;
+.sec_btn {
+  margin-top: .5em;
 }
-
 
 
 /* --- MEDIA QUERIES --- */
 
-/* - XL - min-width: 1200px - */
-@media (min-width: 1200px) {
-  .carousel-inner {
-    max-height: 90.5vh !important;
+/* - SM - max-width: 767px - */
+@media (min-width: 576px) and (max-width: 767px) {
+  .modal-content {
+    width: 75%;
+  }
+
+  .text-holder h1 {
+    font-size: 2.1rem;
   }
 }
 
+
+/* - MD - min-width: 768px - */
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-parent {
+    width: 80%;
+  }
+
+  .text-holder h1 {
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    padding: 0px;
+    margin-bottom: .8em;
+
+  }
+
+  .giant_btn {
+    font-size: 1.15rem;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+
+  .first_btn,
+  .sec_btn {
+    font-size: .85rem;
+    width: 8em;
+  }
+
+  .sec_btn {
+    margin-top: 0;
+    margin-left: -10px !important;
+  }
+}
+
+
+/* - LG - max-width: 992px - */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text-parent {
+    width: 60%;
+  }
+
+  .text-holder h1 {
+    font-size: 2.5rem;
+    line-height: 1.7em;
+    padding: 0px;
+    margin-bottom: .8em;
+  }
+
+  .giant_btn {
+    font-size: 1.2rem;
+  }
+
+  .modal-content {
+    width: 83%;
+  }
+
+  .img_logo {
+    max-width: 65px;
+  }
+
+  .first_btn,
+  .sec_btn {
+    font-size: .9rem;
+    width: 9em;
+  }
+
+  .sec_btn {
+    margin-top: 0;
+    margin-left: -10px !important;
+  }
+}
+
+
+/* - XL - min-width: 1200px - */
+@media (min-width: 1200px) {
+  .text-parent {
+    width: 50%;
+  }
+
+  .text-holder h1 {
+    font-size: 2.5rem;
+    line-height: 1.7em;
+    padding: 0px;
+    margin-bottom: .8em;
+  }
+
+  .giant_btn {
+    font-size: 1.2rem;
+  }
+
+  .modal-content {
+    width: 85%;
+  }
+
+  .img_logo {
+    max-width: 65px;
+  }
+
+  .first_btn,
+  .sec_btn {
+    font-size: .9rem;
+    width: 9em;
+  }
+
+  .sec_btn {
+    margin-top: 0;
+    margin-left: -10px !important;
+  }
+}
