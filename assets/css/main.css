@@ -1,196 +1,24 @@
-/* - XS - max-width: 575px - & 
-   - SM - max-width: 767px -
+/* - XS - max-width: 575px - 
 */
 body {
-  font-family: 'Ubuntu', sans-serif;
-  background: rgba(87, 37, 116, 0.507);
+  font-family: 'Baloo 2', cursive;
   font-size: 1rem;
+  background-color: #ffcccc;
 }
 
-.rHeight {
-  height: 25vh;
-  padding: 0 20px;
+.navbar {
+  background-color: transparent !important;
 }
 
-.txt-col {
-  background-color: #c1c1c1;
+.brand_name {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.05rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1e3369;
 }
 
-.txt-col > h1 {
-  font-size: 2rem;
+.carousel_box {
+  padding: 0;
 }
-
-.img-two-box,
-.img-three-box {
-  display: none;
-}
-
-footer {
-  background-color: #192a56 !important;
-  position: absolute;
-  bottom: -200px;
-  height: auto;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.copyright {
-  margin-top: 1em;
-}
-
-.icons:link,
-.icons:active,
-.icons:focus,
-.fab {
-  text-decoration: none;
-  font-size: 1rem;
-  color: seashell !important;
-}
-
-.icons:hover,
-.fab:hover {
-  color: springgreen !important;
-}
-
-
-
-/* --- MEDIA QUERIES --- */
-
-/* - MD - min-width: 768px - */
-@media (min-width: 768px) and (max-width: 991px) {
-  body {
-    background: url(../images/bg.gif) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  .img-two-box {
-    display: block;
-  }
-
-  .rHeight {
-    height: 30vh;
-    padding: 0 20px;
-    margin-bottom: 3em !important;
-  }
-
-  .txt-col > h1 {
-    font-size: 2.5rem;
-  }
-
-  footer {
-    bottom: -200px;
-  }
-
-  .icons:link,
-  .icons:active,
-  .icons:focus,
-  .fab {
-    font-size: 1.2rem;
-  }
-}
-
-
-/* - LG - min-width: 992px - */
-@media (min-width: 992px) and (max-width: 1199px) {
-  body {
-    background: url(../images/bg.gif) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  .img-two-box,
-  .img-three-box {
-    display: block;
-  }
-
-  .rHeight {
-    height: 33vh;
-    margin-bottom: 3em !important;
-  }
-
-  .txt-col > h1 {
-    font-size: 2.7rem;
-  }
-
-  footer {
-    bottom: -300px;
-    font-size: 1rem;
-  }
-
-  .icons:link,
-  .icons:active,
-  .icons:focus,
-  .fab {
-    font-size: 1.2rem;
-  }
-}
-
-
-/* - XL - min-width: 1200px - */
-@media (min-width: 1200px) {
-  body {
-    background: url(../images/bg.gif) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  .img-two-box,
-  .img-three-box {
-    display: block;
-  }
-
-  .rHeight {
-    height: 32vh;
-    margin-bottom: 3em !important;
-  }
-
-  .txt-col > h1 {
-    font-size: 3rem;
-  }
-
-  footer {
-    bottom: -300px;
-    font-size: 1rem;
-  }
-
-  .icons:link,
-  .icons:active,
-  .icons:focus,
-  .fab {
-    font-size: 1.4rem;
-  } 
-}
-
-
-/* xs */
-/* @media (max-width: 575px) {
-  .green {
-    background-color: red;
-  }
-} */
-
-/* sm */
-/* @media (min-width: 576px) and (max-width: 767px) {
-  .green {
-    background-color: rgba(41, 189, 140, 0.781);
-  }
-} */
-
-/* md */
-/* @media (min-width: 768px) and (max-width: 991px) {
-  .green {
-    background-color: #000;
-  }
-} */
-
-/* lg */
-/* @media (min-width: 992px) and (max-width: 1199px) {
-  .green {
-    background-color: orange;
-  }
-} */
-
-/* xl */
-/* @media (min-width: 1200px) {
-  .green {
-    background-color: violet;
-  }
-} */
